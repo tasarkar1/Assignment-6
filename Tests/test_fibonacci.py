@@ -1,7 +1,7 @@
 import pytest
 from fibonacci import Fibonacci
 
-def test_constructor_zero():
-    assert (list(Fibonacci(0)))== [0]
+def test_constructor_one():
+    assert (list(Fibonacci(1)))== [0,1]
 
 
