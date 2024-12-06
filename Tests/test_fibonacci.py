@@ -1,7 +1,7 @@
 import pytest
 from fibonacci import Fibonacci
 
-def test_constructor_ten():
-    assert (list(Fibonacci(10)))==  [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+def test_constructor_negative():
+    assert (list(Fibonacci(-1)))==  []
 
 
